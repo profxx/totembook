@@ -10,13 +10,15 @@ function convertBookToTr(book) {
     `
 };
 
-async function listarLivros() {
+function listarLivros() {
     const listalivros = document.getElementById("listalivros")
 
-    await fetch("http://localhost:8080/livros")
+    fetch("http://localhost:8080/livros")
         .then((response) => response.json())
         .then((jsonresponse) => {
             listalivros.innerHTML = jsonresponse.map(convertBookToTr).join("")
         })
         .catch((error) => "listarLivros: " + error);
 };  
+
+listarLivros();
