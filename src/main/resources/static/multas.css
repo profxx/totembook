@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-top: 50px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+table {
+    margin-top: 30px;
+    width: 100%;
+    
+}
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 2px solid hsl(0, 0%, 75%);
+}
+.table-header {
+    background-color: #ffffff;
+    color: white;
+}
+.btn {
+    margin-top: 20px;
+}
+/* Estilo para a barra de status de login */
+.login-status {
+    background-color: #534b76;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    text-align: right;
+}
+.login-status span {
+    font-weight: bold;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: arial;
+    background-color: #14213d;
+}
+
+/* _________________________________________________________________ */
+
+/* navbar */
+.container1{
+    padding: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #ccdeea;
+}
+
+.logo img{
+    width: 5.6rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.menu-left, 
+.menu-right{
+    display: flex;
+    font-size: 17px;
+}
+
+.menu-left img{
+    width: 210px;
+    margin-left: 255px;
+}
+
+.menu ul li{ /* separação entre as opções da */
+    padding-right: .9rem;
+    color: #534b76;
+}
+
+.menu-right .pesquisa img { /* tamanho da pesquisa */
+    max-width: 30px;
+    max-height: 35px;
+    width: auto;
+    height: auto;
+}
+
+.menu-right .user img{
+    max-width: 40px;
+    max-height: 45px;
+    width: auto;
+    height: auto;
+}
+
+.menu i{
+    font-size: 20px;
+}
+
+.menu-right ul li{
+    padding-right: 1.5rem;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+/* _________________________________________________________________ */
+
+/* saudações */
+.boas-vindas .subtitle{
+    color: #ccdeea;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}

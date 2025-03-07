@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: arial;
+    background-color: #14213d;
+}
+
+/* _________________________________________________________________ */
+
+/* navbar */
+.container1{
+    padding: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #ccdeea;
+}
+
+.logo img{
+    width: 5.6rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.menu-left, 
+.menu-right{
+    display: flex;
+    font-size: 17px;
+}
+
+.menu-left img{
+    width: 210px;
+    margin-left: 255px;
+}
+
+.menu ul li{ /* separação entre as opções da */
+    padding-right: .9rem;
+    color: #534b76;
+}
+
+.menu-right .pesquisa img { /* tamanho da pesquisa */
+    max-width: 30px;
+    max-height: 35px;
+    width: auto;
+    height: auto;
+}
+
+.menu-right .user img{
+    max-width: 40px;
+    max-height: 45px;
+    width: auto;
+    height: auto;
+}
+
+.menu i{
+    font-size: 20px;
+}
+
+.menu-right ul li{
+    padding-right: 1.5rem;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+/* _________________________________________________________________ */
+
+/* saudações */
+.boas-vindas .subtitle{
+    color: #ccdeea;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+
+/* _________________________________________________________________ */
+
+/* lidos */
+.container2{
+    width: 100%;
+    height: 100%;
+    background-color: #534b76;
+    color: #ccdeea;
+}
+
+.container2 .carrossel{
+    display: flex;
+    flex-direction: row;
+}
+
+.container2 span{
+    padding: 10px;
+    align-items: center;
+}
+
+
+.categoria1 .lido img{
+    max-width: 250px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    margin: 5px 0vh 5px 10px;
+}
+
+.categoria1 span{
+    font-weight: bold;
+    font-size: 25px;
+}
+/* _________________________________________________________________ */
+
+/* mais lidos */
+.container3{
+    width: 100%;
+    height: 100%;
+    background-color: #867493;
+    color: #14213d;
+}
+
+.container3 span{
+    padding: 10px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container3 .carrossel{
+    display: flex;
+    flex-direction: row;
+}
+
+.categoria2 .mais-lido img{
+    max-width: 250px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    margin: 5px 0vh 5px 10px;
+}
+
+
+.avaliacao{
+    margin-left: 10px;
+}

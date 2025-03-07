@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: arial;
+    background-color: #14213d;
+}
+
+/* _________________________________________________________________ */
+
+/* navbar */
+.container1{
+    padding: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #ccdeea;
+}
+
+.logo img{
+    width: 5.6rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.menu-left, 
+.menu-right{
+    display: flex;
+    font-size: 17px;
+}
+
+.menu-left img{
+    width: 210px;
+    margin-left: 255px;
+}
+
+.menu ul li{ /* separação entre as opções da */
+    padding-right: .9rem;
+    color: #534b76;
+}
+
+.menu-right .pesquisa img { /* tamanho da pesquisa */
+    max-width: 30px;
+    max-height: 35px;
+    width: auto;
+    height: auto;
+}
+
+.menu-right .user img{
+    max-width: 40px;
+    max-height: 45px;
+    width: auto;
+    height: auto;
+}
+
+.menu i{
+    font-size: 20px;
+}
+
+.menu-right ul li{
+    padding-right: 1.5rem;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+
+
+.devolucao{
+    background-color: rgb(163, 32, 32);
+    text-align: center;
+    height: 40px;
+    margin:0 100px;
+    border-radius: 10px;
+    justify-content: center;
+    color: white;
+    width: 0 auto;
+}
+
+.card{
+    text-align: center;
+    height: 40px;
+    margin: 0px 100px;
+    border-radius: 10px;
+    justify-content: center;
+    color: white;
+    border-color: white;
+    background-color: #534b76;
+    width: 0 auto;
+}
+
+.pagamento{
+    background-color: rgb(163, 32, 32);
+    text-align: center;
+    height: 40px;
+    margin:50px 100px 0px 100px;
+    border-radius: 10px;
+    justify-content: center;
+    color: white;
+    width: 0 auto;
+
+}
+
+.card2{
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    color: white;
+    border-color: white;
+    background-color: #14213d;
+}
+
+.botoes{
+    justify-content: center;
+    margin:10px 0px 0px 42%;
+    border-radius: 10%;
+}
+
+.pesquisa1{
+    text-align: center;
+    margin:10px 500px 0px 500px;
+    border-radius: 10px;
+    justify-content: center;
+    color: white;
+    border-color: white;
+    background-color: #14213d;
+
+}
+
+.multa{
+    background-color:rgb(163, 32, 32);
+    text-align: center;
+    height: 40px;
+    margin:50px 100px 100px;
+    border-radius: 10px;
+    justify-content: center;
+    color: white;
+    width: 0 auto;
+}
+
+.quadrado{
+    background-color: #534b76;
+}
